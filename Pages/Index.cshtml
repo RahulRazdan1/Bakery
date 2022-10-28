@@ -1,0 +1,265 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<style>
+    .carousel-control-next-icon {
+        background-color: #9C0646;
+    }
+
+    .carousel-control-prev-icon {
+        background-color: #9C0646;
+    }
+
+    .CategoryHeader {
+        color: rgb(156, 6, 70);
+        min-height: auto;
+        font-family: "Kaushan Script";
+        line-height: 2;
+        border-color: rgb(168, 121, 76);
+        border-style: none;
+        border-width: 0px;
+        border-radius: 0px;
+        letter-spacing: 0.7px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .TopHeader {
+        color: rgb(156, 6, 70);
+        min-height: auto;
+        font-family: "Kaushan Script";
+        line-height: 2;
+        border-color: rgb(168, 121, 76);
+        border-style: none;
+        border-width: 0px;
+        border-radius: 0px;
+        letter-spacing: 0.7px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+</style>
+<div class="text-center">
+    <div id="divCarousel">
+        <div id="carouselExample" class="carousel slide" data-ride="carousel">
+            <!-- Carousel Indicators -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="~/img/slider1.jpg" alt="First slide">
+                    @*<div class="carousel-caption">
+                    <h5 class="animated slideInLeft">First slide label</h5>
+                    <p class="animated slideInRight">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </div>*@
+                </div>
+                <!-- Carousel Item 1 -->
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="~/img/slider3.jpg" alt="Second slide">
+                    @*<div class="carousel-caption">
+                    <h5 class="animated slideInLeft">Second slide label</h5>
+                    <p class="animated slideInRight">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </div>*@
+                </div>
+                <!-- Carousel Item 2 -->
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="~/img/slider2.jpg" alt="Third slide">
+                    @*<div class="carousel-caption">
+                    <h5 class="animated slideInLeft">Second slide label</h5>
+                    <p class="animated slideInRight">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </div>*@
+                </div>
+                <!-- Carousel Item 2 -->
+            </div>
+            <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <!-- Carousel Control Prev -->
+            <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            <!-- Carousel Control Next -->
+        </div>
+    </div>
+    <div id="divCategory" class="col-sm-12" style="background: url('../img/bg1.png') no-repeat; padding:20px">
+        <br />
+        <div style="height:70px;width:100%;font-size:xx-large;margin-top:20px;margin-bottom:20px;padding-top:20px;" class="CategoryHeader">Category</div>
+        <div style="padding:5px;">
+            <div class="container">
+                <div class="row">
+                    @foreach (var Category in Model.CategoryList)
+                    {
+                        <div class="col-sm-3">
+                            <a href="/Product/?CategoryId=@Category.CategoryId" class=" link-content" data-linktype="url">
+                                <div class="rounded-5" style="height:217px;background-color:white;border-radius: 15px 15px 0px 0px; margin-top:10px; text-align: center;">
+                                    <img src="@Category.Image" style="border-radius: 15px; max-height:100%; max-width:100%;" alt="" title="" />
+                                </div>
+                                <div class="border-top text-muted" style="background-color:white;border-radius: 0px 0px 15px 15px;padding: 10px 0 10px 0;">@Category.Name</div>
+                            </a>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="divProduct" class="col-sm-12" style="background: url('../img/bg2.png') no-repeat; padding:20px">
+        <br />
+        <div style="height:70px;width:100%;font-size:xx-large;margin-top:20px;margin-bottom:20px;padding-top:20px;" class="CategoryHeader">Product</div>
+        <br />
+        <div style="padding:5px;">
+            <div class="container">
+                <div class="row">
+                    @foreach (var Product in Model.ProductList)
+                    {
+                        <div class="col-sm-3">
+                            <a href="/ProductDetail/?ProductId=@Product.ProductId" class=" link-content" data-linktype="url">
+                                <div class="rounded-5" style="height:200px;background-color:white;border-radius: 15px 15px 0px 0px; padding-top:20px; text-align: center;">
+                                    <img src="@Product.Image" style="border-radius: 15px; max-height:100%; max-width:100%;" alt="" title="" />
+                                </div>
+                                <div class="border-top text-muted" style="background-color:white;border-radius: 0px 0px 15px 15px;padding: 10px 0 10px 0;">
+                                    @Product.Name
+                                    <p>@Product.Price.ToString("C")</p>
+                                </div>
+                            </a>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="divAboutUs" style="background: url('../img/bg3.png') no-repeat;padding:20px" class="col-sm-12">
+        <br />
+        <div style="height:70px;width:100%;font-size:xx-large;margin-top:20px;margin-bottom:20px;padding-top:20px;" class="CategoryHeader">About us</div>
+        <div style="padding:5px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4" style="padding-top: 50px;">
+                        <img src="~/Files/Aboutus.jpg" style="max-width:100%;max-height:300px;padding-top:10px;" alt="" title="" />
+                    </div>
+                    <div class="col-sm-8">
+                        <br />
+                        <div class="para-2 align-center font-size-24 editable-content jd-cms-tag jd-cms-tag-company-description" style="color: rgb(68, 68, 68); min-height: auto; font-family: Poppins; line-height: 1.4; border-color: rgb(95, 95, 95); border-style: none; border-width: 0px; border-radius: 0px; letter-spacing: 0px; background-color: rgba(0, 0, 0, 0);">
+                            <p>
+                                <b>Hello!</b><br />
+                                Welcome to Gluten Gap, your next-door solution for your dietary worries. Here, you will find a
+                                plethora of dishes to satisfy your sweet tooth whilst keeping your health in check.
+                                Whether it’s breads and brownies, or cakes and cookies, our simple take on conventional and
+                                forgotten ingredients will make you feel indulgent yet light.
+                            </p>
+                            <p>
+                                <b>A little about me:</b><br />
+                                My journey may have had a rocky start, with my kids being
+                                diagnosed with gluten intolerance, but it has proven to be a
+                                rewarding one, with my household becoming a healthier version
+                                of itself. From baking my son’s favourite brownies for basketball
+                                games or my daughter’s choice of cake, which tastes like a bite of
+                                pure air to her, I hope to sustain and share a different version of
+                                what health can be.
+                            </p>
+                            <p>
+                                <b>Disclaimer:</b><br />
+                                Ingredients used in the kitchen: Tree Nuts, eggs, honey
+                                While all our ingredients are gluten and dairy - free by nature, please do note that we do not
+                                send our products for allergen tests as of now.
+                                Although we take utmost care in cooking your food, our kitchen is not yet a Celiac and Halal
+                                certified cooking space.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <div id="divContactUs" style="background: url('../img/bg3.png') no-repeat; padding:20px; min-height:550px" class="col-sm-12">
+        <br />
+        <div style="height:70px;width:100%;font-size:xx-large;margin-top:20px;margin-bottom:20px;padding-top:20px;" class="CategoryHeader">Contact us</div>
+        <br />
+        <div style="padding:5px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <table style="width:100%;font-family: Poppins;" class="text-left font-size-26">
+                            <tr style="width:100%;">
+                                <td style="width:20%;"><img src="~/img/C1.png" style="max-width:100%;max-height:40px;" alt="" title="" /></td>
+                                <td style="width:80%;"><div class="font-weight-bold">Address</div><div>12 Cuscaden Walk, #23-02, 249694 Singapore</div></td>
+                            </tr>
+                            <tr>
+                                <td><img src="~/img/C1.png" style="max-width:100%;max-height:40px;" alt="" title="" /></td>
+                                <td><div class="font-weight-bold">General Enquiries</div><div>GlutenGap@Gmail.Com,</div></td>
+                            </tr>
+                            <tr>
+                                <td><img src="~/img/C1.png" style="max-width:100%;max-height:40px;" alt="" title="" /></td>
+                                <td><div class="font-weight-bold">Call Us</div><div>90285584</div></td>
+                            </tr>
+                            <tr>
+                                <td><img src="~/img/C1.png" style="max-width:100%;max-height:40px;" alt="" title="" /></td>
+                                <td><div class="font-weight-bold">Our Timing</div><div>Mon - Sun : 10:00 AM - 05:00 PM</div></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="para-2 align-center font-size-24 editable-content jd-cms-tag jd-cms-tag-company-description" style="color: rgb(68, 68, 68); min-height: auto; font-family: Poppins; line-height: 1.4; border-color: rgb(95, 95, 95); border-style: none; border-width: 0px; border-radius: 0px; letter-spacing: 0px; background-color: rgba(0, 0, 0, 0);">
+                            <form action="/examples/actions/confirmation.php" method="post">
+                                <div class="form-group">
+                                    <input type="text" name="Name" class="form-control" placeholder="Your Name" required="required">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="Email" class="form-control" placeholder="Your Email" required="required">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="ContactNo" class="form-control" placeholder="Your Contact No." required="required">
+                                </div>
+                                <div class="form-group">
+                                    <textarea name="txtMsg" cols="20" rows="3" class="form-control" placeholder="Your Message" required="required"></textarea>
+                                </div>
+                                <div class="text-center">
+                                    <center>
+                                        <input type="submit" class="btn btn-primary btn-block" style="width:50%;" value="Submit Now" />
+                                    </center>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <div style="min-height:100px">
+    </div>
+</div>
+@section Scripts {
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var sectionName = getQueryStringValueByName('section');
+            if (sectionName != undefined && sectionName != null) {
+                if (sectionName == "aboutus") {
+                    $('html, body').animate({
+                        scrollTop: $("#divAboutUs").offset().top
+                    }, 2000);
+                }
+                else if (sectionName == "contactus") {
+                    $('html, body').animate({
+                        scrollTop: $("#divContactUs").offset().top
+                    }, 2000);
+                }
+                else if (sectionName == "product") {
+                    $('html, body').animate({
+                        scrollTop: $("#divProduct").offset().top
+                    }, 2000);
+                }
+            }
+        });
+        //function showContactUS(){
+        //    $('html, body').animate({
+        //        scrollTop: $("#divContactUs").offset().top
+        //    }, 2000);
+        //}
+
+        function getQueryStringValueByName(name) {
+            var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+            return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+        }
+
+    </script>
+}

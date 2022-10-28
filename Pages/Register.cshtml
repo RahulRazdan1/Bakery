@@ -1,0 +1,80 @@
+﻿@page
+@model Bakery.Pages.RegisterModel
+@{
+    Layout = "";
+}
+<link rel="stylesheet" href="~/css/site.css" />
+<link rel="stylesheet" href="~/css/style.css">
+<script
+  src="https://code.jquery.com/jquery-3.6.1.min.js"
+  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+  crossorigin="anonymous"></script>
+ <style type="text/css">
+        .btn-primary {
+            color: #fff;
+            background-color: #9C0646 !important;
+            border-color: #9C0646 !important;
+        }
+
+        #btn-back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: none;
+        }
+    </style>
+    <form method="post">
+        <div id="divLogin">
+            <p class="text-center hint-text">Fill in this form to create your account!</p>
+            <div class="form-group">
+                <input type="text" class="form-control" asp-for="Model.Email" placeholder="Username" required="required">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" asp-for="Model.Password" placeholder="Password" required="required">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" asp-for="Model.ConfirmPassword" placeholder="Confirm Password" required="required">
+            </div>
+            <div class="form-group">
+                <label class="form-check-label"><input type="checkbox" required="required"> I accept the <a href="#" onclick="return false;">Terms &amp; Conditions</a></label>
+            </div>
+            <input type="submit" class="btn btn-primary btn-block" value="Sign up" asp-page-handler="Submit"/>
+            <input type="hidden" class="form-control" asp-for="RefreshPage" />
+            <br />
+            <div asp-validation-summary="All" class="text-danger"></div>
+        </div>
+    </form>
+@*<form  method="post">
+    <div class="dropdown-menu action-form">
+        <div style="padding:15px;">
+                <p class="text-center hint-text">Fill in this form to create your account!</p>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Username" required="required">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Password" required="required">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Confirm Password" required="required">
+                </div>
+                <div class="form-group">
+                    <label class="form-check-label"><input type="checkbox" required="required"> I accept the <a href="#" onclick="return false;">Terms &amp; Conditions</a></label>
+                </div>
+                <input type="submit" class="btn btn-primary btn-block" value="Sign up" asp-page-handler="Submit" />
+        </div>
+    </div>
+</form>*@
+<script>
+    @if (ModelState.IsValid)
+    {
+        <text>
+        $(document).ready(function() {            
+           if(document.getElementById('RefreshPage').value != undefined && document.getElementById('RefreshPage').value != null && document.getElementById('RefreshPage').value != ''){
+               if(document.getElementById('RefreshPage').value == 'True' || document.getElementById('RefreshPage').value == 'true'){
+                   parent.RefreshPage();
+               }
+           }
+        });
+        </text>
+    }
+</script>

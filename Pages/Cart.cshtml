@@ -1,0 +1,136 @@
+﻿@page
+@model Bakery.Pages.CartModel
+@{
+}
+<style>
+    .TopHeader {
+        color: rgb(156, 6, 70);
+        min-height: auto;
+        font-family: "Kaushan Script";
+        line-height: 2;
+        border-color: rgb(168, 121, 76);
+        border-style: none;
+        border-width: 0px;
+        border-radius: 0px;
+        letter-spacing: 0.7px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .btn-primary {
+        color: #fff;
+        background-color: #9C0646 !important;
+        border-color: #9C0646 !important;
+    }
+
+    #btn-back-to-top {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        display: none;
+    }
+</style>
+<script type="text/javascript">
+    function Vikas(obj) {
+        var phoneno = document.getElementById("phoneno");
+        var address = document.getElementById("address");
+
+        if (obj.value == "Pick Up") {
+            phoneno.value = "880023123";
+            address.value = "dasdasd";
+            phoneno.readOnly = true;
+            address.readOnly = true;
+        }
+        else {
+            phoneno.value = "";
+            address.value = "";
+            phoneno.readOnly = false;
+            address.readOnly = false;
+        }
+    }
+</script>
+
+<div style="background-color:#f2f4f8;height:520px;border-radius: 10px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="col-sm-8" style="border-radius: 10px; background-color:white; min-height:200px; margin:5px 0 5px 5px; width:65%">
+                    <div class="col-sm-12">
+                        <div class="col-sm-12" style="min-height:30px; font-weight:bold; margin:5px 0 5px 0; background-color:#979baa">
+                            <div class="col-sm-8" style="margin:5px 0 5px 0">Item(s) Details</div>
+                            <div class="col-sm-2" style="margin:5px 0 5px 0">Quantity</div>
+                            <div class="col-sm-2" style="margin:5px 0 5px 0">Amount</div>
+                        </div>
+                        @foreach (var PurchaseProduct in Model.PurchaseProductList)
+                        {
+                            <div class="col-sm-12 border-bottom" style="min-height:100px">
+                                <div class="col-sm-2" style="padding-top:5px">
+                                    <a href="/ProductDetail/?ProductId=@PurchaseProduct.ProductId" class=" link-content" data-linktype="url">
+                                        <img src="@PurchaseProduct.Image" style="border-radius: 15px; width:80px; height:80px;" alt="" title="" />
+                                    </a>
+                                </div>
+                                <div class="col-sm-6" style="margin:20px 0 5px 0">
+                                    @PurchaseProduct.Description<br />
+                                    @PurchaseProduct.Price.ToString("C")
+                                </div>
+                                <div class="col-sm-2" style="margin:20px 0 5px 0">
+                                    <div class="form-group" style="margin-left:20px; width:10%">
+                                        @*@{
+                                    var productQuantities = new SelectList(Enumerable.Range(1, 10));
+                                    }
+                                    @Html.DropDownList("Quantity", productQuantities, @PurchaseProduct.Quantity)*@
+                                        @PurchaseProduct.Quantity
+                                    </div>
+                                </div>
+                                <div class="col-sm-2" style="margin:20px 0 5px 0">
+                                    @((PurchaseProduct.Price * PurchaseProduct.Quantity).ToString("C"))
+                                </div>
+                            </div>
+                        }
+                    </div>
+                    <div class="row" style="padding-left: 5px;">
+                        <div class="col-sm-2" style="border-radius: 10px; min-height:30px; margin:5px 0 5px 0; width:65%">
+                            <a href="##" onClick="history.go(-1); return false;" class="btn btn-danger mt-10"> << CONTINUE SHOPPING </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <form method="post">
+                        <div class="col-sm-12" style="border-radius: 10px; background-color:white; min-height:200px; margin:5px">
+                            <div class="form-group"></div>
+                            <div class="form-group">
+                                <div style="float:left"><label for="sel1">Item(s) Total:</label></div>
+                                <div style="float:right">$@ViewData["PurchasePrice"]</div>
+                            </div>
+                            <div style="clear: both;" class="form-group border-top"></div>
+                            <div class="form-group">
+                                <div style="float:left"><label for="sel1">Amount Payable:</label></div>
+                                <div style="float:right">$@ViewData["PurchasePrice"]</div>
+                            </div>
+                            <div style="clear: both;" class="form-group border-top"></div>
+                            <div class="form-group">
+                                <label for="sel1">Order Option:</label>
+                                <select class="form-control" id="sel1" onchange="Vikas(this);">
+                                    <option>Delivery</option>
+                                    <option>Pick Up</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="phoneno">Phone No:</label>
+                                <input type="text" class="form-control" id="phoneno" />
+                            </div>
+                            <div class="form-group">
+                                <label for="address">Address:</label>
+                                <textarea class="form-control" rows="4" id="address"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" class="btn btn-primary btn-block" value="Place your order" asp-page-handler="PlaceYourOrder" />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>            
+        </div>
+    </div>
+</div>
+<div style="min-height:50px">
+</div>

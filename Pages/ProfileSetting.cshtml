@@ -1,0 +1,49 @@
+﻿@page
+@model Bakery.Pages.ProfileSettingModel
+@{
+    Layout = "";
+}
+<link rel="stylesheet" href="~/css/site.css" />
+<link rel="stylesheet" href="~/css/style.css">
+<script
+  src="https://code.jquery.com/jquery-3.6.1.min.js"
+  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+  crossorigin="anonymous"></script>
+ <style type="text/css">
+        .btn-primary {
+            color: #fff;
+            background-color: #9C0646 !important;
+            border-color: #9C0646 !important;
+        }
+
+        #btn-back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: none;
+        }
+</style>
+<form method="post">
+<div class="container">
+    <div class="row justify-content-end">
+        <div class="col-sm-12 col-md-12 col-lg-4">
+            <input type="submit" class="btn btn-primary btn-block" value="Logout" asp-page-handler="AppLogout"/>
+            <input type="hidden" class="form-control" asp-for="RefreshPage" />
+        </div>
+    </div>
+</div>
+</form>
+<script>
+    @if (ModelState.IsValid)
+    {
+        <text>
+        $(document).ready(function() {            
+           if(document.getElementById('RefreshPage').value != undefined && document.getElementById('RefreshPage').value != null && document.getElementById('RefreshPage').value != ''){
+               if(document.getElementById('RefreshPage').value == 'True' || document.getElementById('RefreshPage').value == 'true'){
+                   parent.RefreshPage();
+               }
+           }
+        });
+        </text>
+    }
+</script>

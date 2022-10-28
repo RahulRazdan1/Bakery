@@ -1,0 +1,90 @@
+﻿@page
+@model Bakery.Pages.ProductDetailModel
+@{
+}
+<style>
+    .TopHeader {
+        color: rgb(156, 6, 70);
+        min-height: auto;
+        font-family: "Kaushan Script";
+        line-height: 2;
+        border-color: rgb(168, 121, 76);
+        border-style: none;
+        border-width: 0px;
+        border-radius: 0px;
+        letter-spacing: 0.7px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .btn-primary {
+        color: #fff;
+        background-color: #9C0646 !important;
+        border-color: #9C0646 !important;
+    }
+
+    #btn-back-to-top {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        display: none;
+    }
+</style>
+<script>
+    window.test = {
+        historyGo(value) {
+            window.history.go(value);
+        }
+    };
+</script>
+<form method="post">
+    <div style="background-color:#F2F4F8;height:520px;border-radius: 10px;">
+        <div id="divProduct" style="padding-top:10px;">
+            <div style="padding:5px;">
+                <table style="width:100%;margin:10px;">
+                    <tr style="width:100%;">
+                        <td style="width:35%;padding-right: 5px;">
+                            <div style="height:350px;background-color:white;border-radius: 10px; text-align:center">
+                                <img src="../@Model.Product.Image" style="border-radius: 15px; max-height:100%; max-width:100%;" alt="" title="" />
+                                <br />
+                                <div style="text-align:center;margin-top:10px;" class="border-top"><br />Cost : @Model.Product.Price.ToString("C")</div>
+                            </div>
+                        </td>
+                        <td style="width:65%;">
+                            <div class="border-bottom" style="background-color:white;border-radius: 10px;height:350px;width:97%;">
+                                <br />
+                                <div style="margin-left:20px; height:50px;" class="border-bottom">@Model.Product.Name</div>
+                                <br />
+                                <div style="margin-left:20px; height:50px;">@Model.Product.Description</div>
+                                <br />
+                                <div class="form-group" style="margin-left:20px; width:10%">
+                                    <label for="ProductQuantity" class="control-label">Quantity</label>
+                                    @{
+                                        var productQuantities = new SelectList(Enumerable.Range(1, 10));
+                                    }
+                                    @Html.DropDownList("Quantity", productQuantities, new { @class = "form-control" })
+                                </div>
+                                <table style="width: 100%;">
+                                    <tr style="width:100%;">
+                                        <td style="width:35%;">
+                                            <input type="submit" class="btn btn-primary btn-block"
+                                                   style="width:200px;margin-left:20px;"
+                                                   value="ADD TO CART" asp-route-ProductId="@Model.Product.ProductId" asp-page-handler="Submit" />
+                                        </td>
+                                        <td style="width:35%;">
+                                            <input type="submit" class="btn btn-primary btn-block"
+                                                   style="width:200px;float:right"
+                                                   value="BUY NOW" asp-route-ProductId="@Model.Product.ProductId" asp-page-handler="BuyNow" />
+                                        </td>
+                                        <td style="width:30%;"></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</form>
+<div style="min-height:50px">
+</div>

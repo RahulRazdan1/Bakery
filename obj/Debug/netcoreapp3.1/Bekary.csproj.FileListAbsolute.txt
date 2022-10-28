@@ -1,0 +1,126 @@
+D:\Project\R&D\NewBekary\RND1\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Project\R&D\NewBekary\RND1\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Project\R&D\NewBekary\RND1\bin\Debug\netcoreapp3.1\Bekary.exe
+D:\Project\R&D\NewBekary\RND1\bin\Debug\netcoreapp3.1\Bekary.deps.json
+D:\Project\R&D\NewBekary\RND1\bin\Debug\netcoreapp3.1\Bekary.runtimeconfig.json
+D:\Project\R&D\NewBekary\RND1\bin\Debug\netcoreapp3.1\Bekary.runtimeconfig.dev.json
+D:\Project\R&D\NewBekary\RND1\bin\Debug\netcoreapp3.1\Bekary.dll
+D:\Project\R&D\NewBekary\RND1\bin\Debug\netcoreapp3.1\Bekary.pdb
+D:\Project\R&D\NewBekary\RND1\bin\Debug\netcoreapp3.1\Bekary.Views.dll
+D:\Project\R&D\NewBekary\RND1\bin\Debug\netcoreapp3.1\Bekary.Views.pdb
+D:\Project\R&D\NewBekary\RND1\obj\Debug\netcoreapp3.1\Bekary.csprojAssemblyReference.cache
+D:\Project\R&D\NewBekary\RND1\obj\Debug\netcoreapp3.1\Bekary.AssemblyInfoInputs.cache
+D:\Project\R&D\NewBekary\RND1\obj\Debug\netcoreapp3.1\Bekary.AssemblyInfo.cs
+D:\Project\R&D\NewBekary\RND1\obj\Debug\netcoreapp3.1\Bekary.csproj.CoreCompileInputs.cache
+D:\Project\R&D\NewBekary\RND1\obj\Debug\netcoreapp3.1\Bekary.MvcApplicationPartsAssemblyInfo.cache
+D:\Project\R&D\NewBekary\RND1\obj\Debug\netcoreapp3.1\Bekary.RazorAssemblyInfo.cache
+D:\Project\R&D\NewBekary\RND1\obj\Debug\netcoreapp3.1\Bekary.RazorAssemblyInfo.cs
+D:\Project\R&D\NewBekary\RND1\obj\Debug\netcoreapp3.1\staticwebassets\Bekary.StaticWebAssets.Manifest.cache
+D:\Project\R&D\NewBekary\RND1\obj\Debug\netcoreapp3.1\staticwebassets\Bekary.StaticWebAssets.xml
+D:\Project\R&D\NewBekary\RND1\obj\Debug\netcoreapp3.1\scopedcss\bundle\Bekary.styles.css
+D:\Project\R&D\NewBekary\RND1\obj\Debug\netcoreapp3.1\Bekary.TagHelpers.input.cache
+D:\Project\R&D\NewBekary\RND1\obj\Debug\netcoreapp3.1\Bekary.TagHelpers.output.cache
+D:\Project\R&D\NewBekary\RND1\obj\Debug\netcoreapp3.1\Bekary.RazorCoreGenerate.cache
+D:\Project\R&D\NewBekary\RND1\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+D:\Project\R&D\NewBekary\RND1\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+D:\Project\R&D\NewBekary\RND1\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+D:\Project\R&D\NewBekary\RND1\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+D:\Project\R&D\NewBekary\RND1\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Project\R&D\NewBekary\RND1\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\Project\R&D\NewBekary\RND1\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\Project\R&D\NewBekary\RND1\obj\Debug\netcoreapp3.1\Bekary.RazorTargetAssemblyInfo.cache
+D:\Project\R&D\NewBekary\RND1\obj\Debug\netcoreapp3.1\Bekary.RazorTargetAssemblyInfo.cs
+D:\Project\R&D\NewBekary\RND1\obj\Debug\netcoreapp3.1\Bekary.Views.pdb
+D:\Project\R&D\NewBekary\RND1\obj\Debug\netcoreapp3.1\Bekary.dll
+D:\Project\R&D\NewBekary\RND1\obj\Debug\netcoreapp3.1\Bekary.pdb
+D:\Project\R&D\NewBekary\RND1\obj\Debug\netcoreapp3.1\Bekary.genruntimeconfig.cache
+D:\Project\R&D\NewBekary\RND1\obj\Debug\netcoreapp3.1\Bekary.csproj.CopyComplete
+D:\Nikhil\New World\NewBakery\RND1\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Nikhil\New World\NewBakery\RND1\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Nikhil\New World\NewBakery\RND1\bin\Debug\netcoreapp3.1\Bekary.StaticWebAssets.xml
+D:\Nikhil\New World\NewBakery\RND1\bin\Debug\netcoreapp3.1\Bekary.exe
+D:\Nikhil\New World\NewBakery\RND1\bin\Debug\netcoreapp3.1\Bekary.deps.json
+D:\Nikhil\New World\NewBakery\RND1\bin\Debug\netcoreapp3.1\Bekary.runtimeconfig.json
+D:\Nikhil\New World\NewBakery\RND1\bin\Debug\netcoreapp3.1\Bekary.runtimeconfig.dev.json
+D:\Nikhil\New World\NewBakery\RND1\bin\Debug\netcoreapp3.1\Bekary.dll
+D:\Nikhil\New World\NewBakery\RND1\bin\Debug\netcoreapp3.1\Bekary.pdb
+D:\Nikhil\New World\NewBakery\RND1\bin\Debug\netcoreapp3.1\Bekary.Views.dll
+D:\Nikhil\New World\NewBakery\RND1\bin\Debug\netcoreapp3.1\Bekary.Views.pdb
+D:\Nikhil\New World\NewBakery\RND1\obj\Debug\netcoreapp3.1\Bekary.csproj.AssemblyReference.cache
+D:\Nikhil\New World\NewBakery\RND1\obj\Debug\netcoreapp3.1\Bekary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nikhil\New World\NewBakery\RND1\obj\Debug\netcoreapp3.1\Bekary.AssemblyInfoInputs.cache
+D:\Nikhil\New World\NewBakery\RND1\obj\Debug\netcoreapp3.1\Bekary.AssemblyInfo.cs
+D:\Nikhil\New World\NewBakery\RND1\obj\Debug\netcoreapp3.1\Bekary.csproj.CoreCompileInputs.cache
+D:\Nikhil\New World\NewBakery\RND1\obj\Debug\netcoreapp3.1\Bekary.MvcApplicationPartsAssemblyInfo.cache
+D:\Nikhil\New World\NewBakery\RND1\obj\Debug\netcoreapp3.1\Bekary.RazorAssemblyInfo.cache
+D:\Nikhil\New World\NewBakery\RND1\obj\Debug\netcoreapp3.1\Bekary.RazorAssemblyInfo.cs
+D:\Nikhil\New World\NewBakery\RND1\obj\Debug\netcoreapp3.1\staticwebassets\Bekary.StaticWebAssets.Manifest.cache
+D:\Nikhil\New World\NewBakery\RND1\obj\Debug\netcoreapp3.1\Bekary.TagHelpers.input.cache
+D:\Nikhil\New World\NewBakery\RND1\obj\Debug\netcoreapp3.1\Bekary.TagHelpers.output.cache
+D:\Nikhil\New World\NewBakery\RND1\obj\Debug\netcoreapp3.1\Bekary.RazorCoreGenerate.cache
+D:\Nikhil\New World\NewBakery\RND1\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+D:\Nikhil\New World\NewBakery\RND1\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+D:\Nikhil\New World\NewBakery\RND1\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+D:\Nikhil\New World\NewBakery\RND1\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+D:\Nikhil\New World\NewBakery\RND1\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Nikhil\New World\NewBakery\RND1\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\Nikhil\New World\NewBakery\RND1\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\Nikhil\New World\NewBakery\RND1\obj\Debug\netcoreapp3.1\Bekary.RazorTargetAssemblyInfo.cache
+D:\Nikhil\New World\NewBakery\RND1\obj\Debug\netcoreapp3.1\Bekary.RazorTargetAssemblyInfo.cs
+D:\Nikhil\New World\NewBakery\RND1\obj\Debug\netcoreapp3.1\Bekary.Views.pdb
+D:\Nikhil\New World\NewBakery\RND1\obj\Debug\netcoreapp3.1\Bekary.dll
+D:\Nikhil\New World\NewBakery\RND1\obj\Debug\netcoreapp3.1\Bekary.pdb
+D:\Nikhil\New World\NewBakery\RND1\obj\Debug\netcoreapp3.1\Bekary.genruntimeconfig.cache
+D:\Nikhil\New World\NewBakery\RND1\obj\Debug\netcoreapp3.1\Bekary.csproj.CopyComplete
+D:\Nikhil\New World\NewBakery\RND1\bin\Debug\netcoreapp3.1\Microsoft.ApplicationBlocks.Data.dll
+D:\Nikhil\New World\NewBakery\RND1\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\Nikhil\New World\NewBakery\RND1\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Nikhil\New World\NewBakery\RND1\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Nikhil\New World\NewBakery\RND1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Nikhil\New World\NewBakery\RND1\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Nikhil\New World\NewBakery\RND1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\netcoreapp3.1\Bekary.StaticWebAssets.xml
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\netcoreapp3.1\appsettings.Production.json
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\netcoreapp3.1\Bekary.exe
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\netcoreapp3.1\Bekary.deps.json
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\netcoreapp3.1\Bekary.runtimeconfig.json
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\netcoreapp3.1\Bekary.runtimeconfig.dev.json
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\netcoreapp3.1\Bekary.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\netcoreapp3.1\Bekary.pdb
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\netcoreapp3.1\Bekary.Views.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\netcoreapp3.1\Bekary.Views.pdb
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\netcoreapp3.1\Microsoft.ApplicationBlocks.Data.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\netcoreapp3.1\Bekary.csproj.AssemblyReference.cache
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\netcoreapp3.1\Bekary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\netcoreapp3.1\Bekary.AssemblyInfoInputs.cache
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\netcoreapp3.1\Bekary.AssemblyInfo.cs
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\netcoreapp3.1\Bekary.csproj.CoreCompileInputs.cache
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\netcoreapp3.1\Bekary.MvcApplicationPartsAssemblyInfo.cache
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\netcoreapp3.1\Bekary.RazorAssemblyInfo.cache
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\netcoreapp3.1\Bekary.RazorAssemblyInfo.cs
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\netcoreapp3.1\staticwebassets\Bekary.StaticWebAssets.Manifest.cache
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\netcoreapp3.1\Bekary.TagHelpers.input.cache
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\netcoreapp3.1\Bekary.TagHelpers.output.cache
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\netcoreapp3.1\Bekary.RazorCoreGenerate.cache
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\netcoreapp3.1\Bekary.RazorTargetAssemblyInfo.cache
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\netcoreapp3.1\Bekary.RazorTargetAssemblyInfo.cs
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\netcoreapp3.1\Bekary.Views.pdb
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\netcoreapp3.1\Bekary.csproj.CopyComplete
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\netcoreapp3.1\Bekary.dll
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\netcoreapp3.1\Bekary.pdb
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\netcoreapp3.1\Bekary.genruntimeconfig.cache

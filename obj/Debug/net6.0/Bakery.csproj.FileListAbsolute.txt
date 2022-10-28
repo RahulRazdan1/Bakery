@@ -1,0 +1,146 @@
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\appsettings.Development.json
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\appsettings.json
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\appsettings.Production.json
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\Bakery.staticwebassets.runtime.json
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\Bakery.exe
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\Bakery.deps.json
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\Bakery.runtimeconfig.json
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\Bakery.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\Bakery.pdb
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\Humanizer.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\Microsoft.ApplicationBlocks.Data.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Project\R&D\NewBekary\Bakery\obj\Debug\net6.0\Bakery.csproj.AssemblyReference.cache
+D:\Project\R&D\NewBekary\Bakery\obj\Debug\net6.0\Bakery.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\R&D\NewBekary\Bakery\obj\Debug\net6.0\Bakery.AssemblyInfoInputs.cache
+D:\Project\R&D\NewBekary\Bakery\obj\Debug\net6.0\Bakery.AssemblyInfo.cs
+D:\Project\R&D\NewBekary\Bakery\obj\Debug\net6.0\Bakery.csproj.CoreCompileInputs.cache
+D:\Project\R&D\NewBekary\Bakery\obj\Debug\net6.0\Bakery.MvcApplicationPartsAssemblyInfo.cache
+D:\Project\R&D\NewBekary\Bakery\obj\Debug\net6.0\Bakery.RazorAssemblyInfo.cache
+D:\Project\R&D\NewBekary\Bakery\obj\Debug\net6.0\Bakery.RazorAssemblyInfo.cs
+D:\Project\R&D\NewBekary\Bakery\obj\Debug\net6.0\staticwebassets.build.json
+D:\Project\R&D\NewBekary\Bakery\obj\Debug\net6.0\staticwebassets.development.json
+D:\Project\R&D\NewBekary\Bakery\obj\Debug\net6.0\scopedcss\bundle\Bakery.styles.css
+D:\Project\R&D\NewBekary\Bakery\obj\Debug\net6.0\Bakery.csproj.CopyComplete
+D:\Project\R&D\NewBekary\Bakery\obj\Debug\net6.0\Bakery.dll
+D:\Project\R&D\NewBekary\Bakery\obj\Debug\net6.0\refint\Bakery.dll
+D:\Project\R&D\NewBekary\Bakery\obj\Debug\net6.0\Bakery.pdb
+D:\Project\R&D\NewBekary\Bakery\obj\Debug\net6.0\Bakery.genruntimeconfig.cache
+D:\Project\R&D\NewBekary\Bakery\obj\Debug\net6.0\ref\Bakery.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\appsettings.Development.json
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\appsettings.json
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\appsettings.Production.json
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\Bakery.staticwebassets.runtime.json
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\Bakery.exe
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\Bakery.deps.json
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\Bakery.runtimeconfig.json
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\Bakery.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\Bakery.pdb
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\Humanizer.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\Microsoft.ApplicationBlocks.Data.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\net6.0\Bakery.csproj.AssemblyReference.cache
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\net6.0\Bakery.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\net6.0\Bakery.AssemblyInfoInputs.cache
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\net6.0\Bakery.AssemblyInfo.cs
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\net6.0\Bakery.csproj.CoreCompileInputs.cache
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\net6.0\Bakery.MvcApplicationPartsAssemblyInfo.cache
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\net6.0\Bakery.RazorAssemblyInfo.cache
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\net6.0\Bakery.RazorAssemblyInfo.cs
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\net6.0\staticwebassets.build.json
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\net6.0\staticwebassets.development.json
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\net6.0\scopedcss\bundle\Bakery.styles.css
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\net6.0\Bakery.csproj.CopyComplete
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\net6.0\Bakery.dll
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\net6.0\refint\Bakery.dll
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\net6.0\Bakery.pdb
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\net6.0\Bakery.genruntimeconfig.cache
+D:\Nikhil\New World\NewBakery\Bakery\obj\Debug\net6.0\ref\Bakery.dll

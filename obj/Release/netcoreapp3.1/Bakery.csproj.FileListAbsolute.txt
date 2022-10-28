@@ -1,0 +1,93 @@
+D:\Nikhil\New World\NewBakery\Bakery\bin\Release\netcoreapp3.1\appsettings.json
+D:\Nikhil\New World\NewBakery\Bakery\bin\Release\netcoreapp3.1\appsettings.Development.json
+D:\Nikhil\New World\NewBakery\Bakery\bin\Release\netcoreapp3.1\appsettings.Production.json
+D:\Nikhil\New World\NewBakery\Bakery\bin\Release\netcoreapp3.1\Bakery.exe
+D:\Nikhil\New World\NewBakery\Bakery\bin\Release\netcoreapp3.1\Bakery.deps.json
+D:\Nikhil\New World\NewBakery\Bakery\bin\Release\netcoreapp3.1\Bakery.runtimeconfig.json
+D:\Nikhil\New World\NewBakery\Bakery\bin\Release\netcoreapp3.1\Bakery.runtimeconfig.dev.json
+D:\Nikhil\New World\NewBakery\Bakery\bin\Release\netcoreapp3.1\Bakery.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Release\netcoreapp3.1\Bakery.pdb
+D:\Nikhil\New World\NewBakery\Bakery\bin\Release\netcoreapp3.1\Bakery.Views.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Release\netcoreapp3.1\Bakery.Views.pdb
+D:\Nikhil\New World\NewBakery\Bakery\bin\Release\netcoreapp3.1\Microsoft.ApplicationBlocks.Data.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Release\netcoreapp3.1\System.Data.SqlClient.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Release\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Release\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Nikhil\New World\NewBakery\Bakery\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Nikhil\New World\NewBakery\Bakery\obj\Release\netcoreapp3.1\Bakery.csproj.AssemblyReference.cache
+D:\Nikhil\New World\NewBakery\Bakery\obj\Release\netcoreapp3.1\Bakery.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nikhil\New World\NewBakery\Bakery\obj\Release\netcoreapp3.1\Bakery.AssemblyInfoInputs.cache
+D:\Nikhil\New World\NewBakery\Bakery\obj\Release\netcoreapp3.1\Bakery.AssemblyInfo.cs
+D:\Nikhil\New World\NewBakery\Bakery\obj\Release\netcoreapp3.1\Bakery.csproj.CoreCompileInputs.cache
+D:\Nikhil\New World\NewBakery\Bakery\obj\Release\netcoreapp3.1\Bakery.MvcApplicationPartsAssemblyInfo.cache
+D:\Nikhil\New World\NewBakery\Bakery\obj\Release\netcoreapp3.1\Bakery.RazorAssemblyInfo.cache
+D:\Nikhil\New World\NewBakery\Bakery\obj\Release\netcoreapp3.1\Bakery.RazorAssemblyInfo.cs
+D:\Nikhil\New World\NewBakery\Bakery\obj\Release\netcoreapp3.1\staticwebassets\Bakery.StaticWebAssets.Manifest.cache
+D:\Nikhil\New World\NewBakery\Bakery\obj\Release\netcoreapp3.1\Bakery.TagHelpers.input.cache
+D:\Nikhil\New World\NewBakery\Bakery\obj\Release\netcoreapp3.1\Bakery.TagHelpers.output.cache
+D:\Nikhil\New World\NewBakery\Bakery\obj\Release\netcoreapp3.1\Bakery.RazorCoreGenerate.cache
+D:\Nikhil\New World\NewBakery\Bakery\obj\Release\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+D:\Nikhil\New World\NewBakery\Bakery\obj\Release\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+D:\Nikhil\New World\NewBakery\Bakery\obj\Release\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+D:\Nikhil\New World\NewBakery\Bakery\obj\Release\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+D:\Nikhil\New World\NewBakery\Bakery\obj\Release\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Nikhil\New World\NewBakery\Bakery\obj\Release\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\Nikhil\New World\NewBakery\Bakery\obj\Release\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\Nikhil\New World\NewBakery\Bakery\obj\Release\netcoreapp3.1\Bakery.RazorTargetAssemblyInfo.cache
+D:\Nikhil\New World\NewBakery\Bakery\obj\Release\netcoreapp3.1\Bakery.RazorTargetAssemblyInfo.cs
+D:\Nikhil\New World\NewBakery\Bakery\obj\Release\netcoreapp3.1\Bakery.Views.pdb
+D:\Nikhil\New World\NewBakery\Bakery\obj\Release\netcoreapp3.1\Bakery.csproj.CopyComplete
+D:\Nikhil\New World\NewBakery\Bakery\obj\Release\netcoreapp3.1\Bakery.dll
+D:\Nikhil\New World\NewBakery\Bakery\obj\Release\netcoreapp3.1\Bakery.pdb
+D:\Nikhil\New World\NewBakery\Bakery\obj\Release\netcoreapp3.1\Bakery.genruntimeconfig.cache
+D:\Project\R&D\NewBekary\Bakery\bin\Release\netcoreapp3.1\appsettings.Development.json
+D:\Project\R&D\NewBekary\Bakery\bin\Release\netcoreapp3.1\appsettings.json
+D:\Project\R&D\NewBekary\Bakery\bin\Release\netcoreapp3.1\appsettings.Production.json
+D:\Project\R&D\NewBekary\Bakery\bin\Release\netcoreapp3.1\Bakery.exe
+D:\Project\R&D\NewBekary\Bakery\bin\Release\netcoreapp3.1\Bakery.deps.json
+D:\Project\R&D\NewBekary\Bakery\bin\Release\netcoreapp3.1\Bakery.runtimeconfig.json
+D:\Project\R&D\NewBekary\Bakery\bin\Release\netcoreapp3.1\Bakery.runtimeconfig.dev.json
+D:\Project\R&D\NewBekary\Bakery\bin\Release\netcoreapp3.1\Bakery.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Release\netcoreapp3.1\Bakery.pdb
+D:\Project\R&D\NewBekary\Bakery\bin\Release\netcoreapp3.1\Bakery.Views.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Release\netcoreapp3.1\Bakery.Views.pdb
+D:\Project\R&D\NewBekary\Bakery\bin\Release\netcoreapp3.1\Microsoft.ApplicationBlocks.Data.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Release\netcoreapp3.1\System.Data.SqlClient.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Release\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Release\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Project\R&D\NewBekary\Bakery\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Project\R&D\NewBekary\Bakery\obj\Release\netcoreapp3.1\Bakery.csprojAssemblyReference.cache
+D:\Project\R&D\NewBekary\Bakery\obj\Release\netcoreapp3.1\Bakery.AssemblyInfoInputs.cache
+D:\Project\R&D\NewBekary\Bakery\obj\Release\netcoreapp3.1\Bakery.AssemblyInfo.cs
+D:\Project\R&D\NewBekary\Bakery\obj\Release\netcoreapp3.1\Bakery.csproj.CoreCompileInputs.cache
+D:\Project\R&D\NewBekary\Bakery\obj\Release\netcoreapp3.1\Bakery.MvcApplicationPartsAssemblyInfo.cache
+D:\Project\R&D\NewBekary\Bakery\obj\Release\netcoreapp3.1\Bakery.RazorAssemblyInfo.cache
+D:\Project\R&D\NewBekary\Bakery\obj\Release\netcoreapp3.1\Bakery.RazorAssemblyInfo.cs
+D:\Project\R&D\NewBekary\Bakery\obj\Release\netcoreapp3.1\staticwebassets\Bakery.StaticWebAssets.Manifest.cache
+D:\Project\R&D\NewBekary\Bakery\obj\Release\netcoreapp3.1\staticwebassets\Bakery.StaticWebAssets.xml
+D:\Project\R&D\NewBekary\Bakery\obj\Release\netcoreapp3.1\scopedcss\bundle\Bakery.styles.css
+D:\Project\R&D\NewBekary\Bakery\obj\Release\netcoreapp3.1\Bakery.TagHelpers.input.cache
+D:\Project\R&D\NewBekary\Bakery\obj\Release\netcoreapp3.1\Bakery.TagHelpers.output.cache
+D:\Project\R&D\NewBekary\Bakery\obj\Release\netcoreapp3.1\Bakery.RazorCoreGenerate.cache
+D:\Project\R&D\NewBekary\Bakery\obj\Release\netcoreapp3.1\Razor\Pages\Cart.cshtml.g.cs
+D:\Project\R&D\NewBekary\Bakery\obj\Release\netcoreapp3.1\Razor\Pages\Category.cshtml.g.cs
+D:\Project\R&D\NewBekary\Bakery\obj\Release\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+D:\Project\R&D\NewBekary\Bakery\obj\Release\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+D:\Project\R&D\NewBekary\Bakery\obj\Release\netcoreapp3.1\Razor\Pages\OrderConfirm.cshtml.g.cs
+D:\Project\R&D\NewBekary\Bakery\obj\Release\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+D:\Project\R&D\NewBekary\Bakery\obj\Release\netcoreapp3.1\Razor\Pages\Product.cshtml.g.cs
+D:\Project\R&D\NewBekary\Bakery\obj\Release\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+D:\Project\R&D\NewBekary\Bakery\obj\Release\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Project\R&D\NewBekary\Bakery\obj\Release\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\Project\R&D\NewBekary\Bakery\obj\Release\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\Project\R&D\NewBekary\Bakery\obj\Release\netcoreapp3.1\Bakery.RazorTargetAssemblyInfo.cache
+D:\Project\R&D\NewBekary\Bakery\obj\Release\netcoreapp3.1\Bakery.RazorTargetAssemblyInfo.cs
+D:\Project\R&D\NewBekary\Bakery\obj\Release\netcoreapp3.1\Bakery.Views.pdb
+D:\Project\R&D\NewBekary\Bakery\obj\Release\netcoreapp3.1\Bakery.csproj.CopyComplete
+D:\Project\R&D\NewBekary\Bakery\obj\Release\netcoreapp3.1\Bakery.dll
+D:\Project\R&D\NewBekary\Bakery\obj\Release\netcoreapp3.1\Bakery.pdb
+D:\Project\R&D\NewBekary\Bakery\obj\Release\netcoreapp3.1\Bakery.genruntimeconfig.cache

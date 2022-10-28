@@ -1,0 +1,33 @@
+﻿@page
+@model Bakery.Pages.ProductModel
+@{
+}
+<div style="min-height:100%;background-color:#f2f4f8;border-radius: 10px;">
+    <div style="width:20%;float:left;">
+        <div style="text-align:center;margin-top:10px;"><br />FILTER<br /></div>
+        <div style="text-align:center;margin-top:10px;" class="border-top">&nbsp;</div>
+        <div>
+            <input type="checkbox" style="margin-left:15px;" />&nbsp;Gluten Free
+        </div>
+        <div style="text-align:center;margin-top:20px;" class="border-top">&nbsp;</div>
+    </div>
+    <div style="width:80%;float:right;border-width:0px 1px 0px 1px; border-style:solid;border-color:lightgray;background-color:#f2f4f8;">
+        <div class="container">
+            <div class="row" style="padding-bottom: 10px">
+                @foreach (var Product in Model.ProductList)
+                {
+                    <div class="col-sm-4">
+                        <a href="/ProductDetail/?ProductId=@Product.ProductId" class=" link-content" data-linktype="url">
+                            <div class="rounded-5" style="height:200px;background-color:white;border-radius: 15px 15px 0px 0px; margin-top:10px; text-align: center;">
+                                <img src="../@Product.Image" style="border-radius: 15px; max-height:100%; max-width:100%;" alt="" title="" />
+                            </div>
+                            <div class="border-top text-muted" style="background-color:white;border-radius: 0px 0px 15px 15px;padding: 5px 0 5px 0; text-align:center">@Product.Name</div>
+                        </a>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+<div style="min-height:50px">
+</div>

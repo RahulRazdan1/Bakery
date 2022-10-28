@@ -1,0 +1,23 @@
+﻿@page
+@model Bakery.Pages.CategoryModel
+@{
+}
+<div style="min-height:100%;background-color:#f2f4f8;border-radius: 10px;">
+    <div class="container">
+        <div class="row" style="padding-bottom: 10px">
+            @foreach (var Category in Model.CategoryList)
+            {
+                <div class="col-sm-4">
+                    <a href="/Product/?CategoryId=@Category.CategoryId" class=" link-content" data-linktype="url">
+                        <div class="rounded-5" style="height:300px;background-color:white;border-radius: 15px 15px 0px 0px; margin-top:10px; text-align: center;">
+                            <img src="@Category.Image" style="border-radius: 15px; max-height:100%; max-width:100%;" alt="" title="" />
+                        </div>
+                        <div class="border-top text-muted" style="background-color:white;border-radius: 0px 0px 15px 15px;padding: 5px 0 5px 0; text-align:center">@Category.Name</div>
+                    </a>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+<div style="min-height:50px">
+</div>

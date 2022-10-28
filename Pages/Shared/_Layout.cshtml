@@ -1,0 +1,231 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@inject SignInManager<IdentityUser> SignInManager;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Bakery</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/style.css">
+    <style type="text/css">
+        .btn-primary {
+            color: #fff;
+            background-color: #9C0646 !important;
+            border-color: #9C0646 !important;
+        }
+
+        #btn-back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: none;
+        }
+
+        .cart-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            color: #fff;
+            background: #f90;
+            min-width: 17px;
+            height: 17px;
+            border-radius: 10px;
+            -moz-border-radius: 10px;
+            text-align: center;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            font-size: 10px;
+            font-weight: 500;
+            font-family: Roboto,sans-serif;
+            margin-top: -5px;
+            margin-left: 6px;
+        }
+
+        .dropdown-menu-left {
+            right: auto;
+            left: 150px !important;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div style="width:100%;background-color:#9C0646;">
+            <div class="container" style="width:100%;height:40px;color:white;font-weight: 600;">
+                <table style="width:100%;">
+                    <tr style="width:100%;">
+                        <td style="width:60%;"><div style="padding-top:0px;">&nbsp;&nbsp;<i class='fa fa-envelope' style='color: white'></i>&nbsp;&nbsp;&nbsp;&nbsp;GlutenGap@Gmail.Com</div></td>
+                        <td style="width:40%;text-align:right;">
+                            @if (SignInManager.IsSignedIn(User))
+                            {
+                                <a href="#" onclick="return false;" data-toggle="dropdown" class="nav-link dropdown-toggle mr-4" style="color:white;font-weight:600;">Welcome @User.Identity.Name</a>
+                                <div class="dropdown-menu action-form dropdown-menu-left" style="width:300px !important;">
+                                    <div style="padding:15px;">
+                                        <iframe width="100%" height="50" src="~/ProfileSetting" title="Account Profile Setting" frameborder="0" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            }
+                            else
+                            {
+                                <!-- Login | Signup-->
+                                <div style="width:80%;float:left;">
+                                    @*<a href="#" class="nav-link mr-4" style="color:white;font-weight:600;" data-toggle="modal" data-target="#myModal">Login</a>*@
+                                    <a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle mr-4" style="color:white;font-weight:600;">Login</a>
+                                    <div class="dropdown-menu action-form dropdown-menu-left" style="width:300px !important;">
+                                        <div style="padding:15px;">
+                                            <iframe width="100%" height="250" src="~/Login" title="Account Login" frameborder="0" allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="width:20%;float:right;">
+                                    <a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle mr-4" style="color:white;font-weight:600;">Sign up</a>
+                                    <div class="dropdown-menu action-form" style="width:300px !important;">
+                                        <div style="padding:15px;">
+                                            <iframe width="100%" height="300" src="~/Register" title="Account Register" frameborder="0" allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </header>
+    <div>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <img src="~/Files/logo.png" style="max-width:153px;max-height:92px" alt="" title="">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Category">CATEGORY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Index" asp-route-section="product">PRODUCT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Index" asp-route-section="aboutus">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Index" asp-route-section="contactus">CONTACT US</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <a asp-area="" asp-page="/Cart">
+                        <i class="cart-btn" id="totalitems">
+                            <i class="cart-count-val">
+                                @ViewData["PurchaseProductCount"]
+                            </i>
+                        </i>
+                    </a>
+                    <a asp-area="" asp-page="/Cart">
+                        <img src="~/img/cart3.png" style="max-width:25px;max-height:25px" alt="" title="">
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <footer class="border-top footer text-muted" style="background-color: #9C0646;">
+        <div class="container" style="color:white;text-align:center;"> 
+            &copy; Copyrights 2022 - @DateTime.UtcNow.AddYears(1).Year. GlutenGap - All Rights Reserved. Created By <b>Rahul Razdan</b>
+        </div>
+    </footer>
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Sign in with your account</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <iframe width="470" height="200" src="~/Login" title="Account Login" frameborder="0" allowfullscreen></iframe>
+                    @*<div class="form-group">
+                    <input type="text" class="form-control" placeholder="Username" required="required">
+                    </div>
+                    <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Password" required="required">
+                    </div>
+                    <input type="submit" class="btn btn-primary btn-block" value="Login">
+                    <div class="text-center mt-2">
+                    <a href="#" style="font-weight:normal;">Forgot Your password?</a>
+                    </div>*@
+                </div>
+
+                <!-- Modal footer -->
+                @*<div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>*@
+
+            </div>
+        </div>
+    </div>
+    <!-- Back to top button -->
+    <button type="button"
+            class="btn btn-floating btn-lg"
+            id="btn-back-to-top" style="margin-bottom:35px;background-color:#9C0646 !important; color:white !important;">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+    <script type="text/javascript">
+        //Get the button
+        let mybutton = document.getElementById("btn-back-to-top");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            if (
+                document.body.scrollTop > 20 ||
+                document.documentElement.scrollTop > 20
+            ) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        // When the user clicks on the button, scroll to the top of the document
+        mybutton.addEventListener("click", backToTop);
+
+        function backToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+        function RefreshPage() {
+            location.reload();
+        }
+    </script>
+</body>
+</html>
